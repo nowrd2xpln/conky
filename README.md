@@ -26,11 +26,15 @@ sudo apt-get install -y
 ```
 Download the conky configuration file to your home directory
 ```
-$> wget -O ~/.conky.rc https://raw.githubusercontent.com/nowrd2xpln/conky/master/rpo/.conkyrc
+$> wget -O ~/.conky.rc https://raw.githubusercontent.com/nowrd2xpln/conky/master/rpi/.conkyrc
 ```
 Download the shell script to /usr/bin/conky.sh
 ```
-$> wget -O /usr/bin/conky.sh https://raw.githubusercontent.com/nowrd2xpln/conky/master/rpo/conky.sh
+$> wget -O /usr/bin/conky.sh https://raw.githubusercontent.com/nowrd2xpln/conky/master/rpi/conky.rc
+```
+Download the file used for the autostart process into /etc/xdg/autostart/
+```
+$> wget -O /usr/bin/conky.desktop https://raw.githubusercontent.com/nowrd2xpln/conky/master/rpi/conky.desktop
 ```
 
 

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=MCHP Bar
+Type=Application
+Exec=sh /usr/bin/conky.sh
+Terminal=false
+Icon=/usr/share/pixmaps/wbar/wbar.png
+Comment=A light and fast launch bar.
+Catagories=Utility;
