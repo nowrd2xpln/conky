@@ -19,3 +19,18 @@ ID=raspbian
 ID_LIKE=debian 
 HOME_URL="http://www.raspbian.org/" 
 
+### Install
+Install conky
+```
+sudo apt-get install -y
+```
+Download the conky configuration file to your home directory
+```
+$> wget -O ~/.conky.rc https://raw.githubusercontent.com/nowrd2xpln/conky/master/rpo/.conkyrc
+```
+Download the shell script to /usr/bin/conky.sh
+```
+$> wget -O /usr/bin/conky.sh https://raw.githubusercontent.com/nowrd2xpln/conky/master/rpo/conky.sh
+```
+
+
