@@ -9,9 +9,13 @@ Raspberry Pi 3 B+
 
 PRETTY_NAME="Raspbian GNU/Linux 9 (stretch)"
 NAME="Raspbian GNU/Linux"
+
 VERSION_ID="9"
+
 VERSION="9 (stretch)"
+
 ID=raspbian
-ID_LIKE=debian
-HOME_URL="http://www.raspbian.org/"
+
+ID_LIKE=debian 
+HOME_URL="http://www.raspbian.org/" 
 
