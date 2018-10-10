@@ -2,7 +2,7 @@
 My collection of conky config files.
 
 ## Getting started
-These instruction will provide information on installation and templates to drop into your home directory. Initially this project is targeted for using the Raspberry Pi 3 B+ to managed serial port connections.
+These instruction will provide information on installation and templates to drop into your home directory. Initially this project is targeted for using the Raspberry Pi 3 B+ to manage serial port connections.
 
 ### HW/OS Environment
 Raspberry Pi 3 B+
