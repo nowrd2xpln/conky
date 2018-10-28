@@ -36,5 +36,5 @@ Download the file used for the autostart process into /etc/xdg/autostart/
 ```
 $> wget -O /usr/bin/conky.desktop https://raw.githubusercontent.com/nowrd2xpln/conky/master/rpi/conky.desktop
 ```
-
+Reboot the system
 
