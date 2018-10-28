@@ -35,7 +35,7 @@ ${voffset -90}
 ${color DimGray}
 ${font}
 ${font Arial:bold:size=10}${color Tan1}UART ${color DarkSlateGray} ${hr 2}
-${if_existing /var/lock/LCK..ttyUSB0}${color DimGray}ttyUSB0 ${alignr}${color red}LOCKED ${else}\
+$font${if_existing /var/lock/LCK..ttyUSB0}${color DimGray}ttyUSB0 ${alignr}${color red}LOCKED ${else}\
 ${color DimGray}ttyUSB0 ${alignr}${color green}UNLOCKED ${endif}
 ${if_existing /var/lock/LCK..ttyUSB1}${color DimGray}ttyUSB1 ${alignr}${color red}LOCKED ${else}\
 ${color DimGray}ttyUSB1 ${alignr}${color green}UNLOCKED ${endif}
