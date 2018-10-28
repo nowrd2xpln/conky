@@ -22,19 +22,19 @@ HOME_URL="http://www.raspbian.org/"
 ### Install
 Install conky
 ```
-sudo apt-get install -y
+sudo apt-get -y install conky
 ```
 Download the conky configuration file to your home directory
 ```
-$> wget -O ~/.conky.rc https://raw.githubusercontent.com/nowrd2xpln/conky/master/rpi/.conkyrc
+$> wget -O ~/.conkyrc https://raw.githubusercontent.com/nowrd2xpln/conky/master/rpi/.conkyrc
 ```
 Download the shell script to /usr/bin/conky.sh
 ```
-$> wget -O /usr/bin/conky.sh https://raw.githubusercontent.com/nowrd2xpln/conky/master/rpi/conky.rc
+$> wget -O /usr/bin/conky.sh https://raw.githubusercontent.com/nowrd2xpln/conky/master/conky.rc
 ```
 Download the file used for the autostart process into /etc/xdg/autostart/
 ```
-$> wget -O /usr/bin/conky.desktop https://raw.githubusercontent.com/nowrd2xpln/conky/master/rpi/conky.desktop
+$> wget -O /etc/xdg/autostart/conky.desktop https://raw.githubusercontent.com/nowrd2xpln/conky/master/conky.desktop
 ```
 Reboot the system
 
