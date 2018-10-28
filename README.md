@@ -30,7 +30,7 @@ $> wget -O ~/.conkyrc https://raw.githubusercontent.com/nowrd2xpln/conky/master/
 ```
 Download the shell script to /usr/bin/conky.sh
 ```
-$> wget -O /usr/bin/conky.sh https://raw.githubusercontent.com/nowrd2xpln/conky/master/conky.rc
+$> wget -O /usr/bin/conky.sh https://raw.githubusercontent.com/nowrd2xpln/conky/master/conky.sh
 ```
 Download the file used for the autostart process into /etc/xdg/autostart/
 ```
